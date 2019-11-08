@@ -1,0 +1,55 @@
+﻿## plugins
+
+- Angular 7 Snippets
+- Auto Close Tag
+- Auto Rename Tag
+- Bracket Pair Colorizer
+- Class autocomplete for HTML
+- Code Outline
+- Code Runner
+- Color info
+- CSS Peek
+- Debugger for Chrome
+- Dracual Official
+- EditorConfig for VS Code
+- ESLint
+- Git Blame
+- GitLens — Git supercharged
+- HTML Boilerplate(ie7, ie8)
+- HTML CSS Support
+- HTML Snippets
+- HTMLHint
+- Icon Fonts
+- Image preview
+- JavaScript(ES6) code snippets
+- JavaScript Snippet Pack
+- language-stylus
+- jQuery Code Snippets
+- Live Sass Compiler
+- jsx-beautify
+- Language Support for Java
+- markdown all in one
+- markdownlint
+- minapp
+- npm
+- npm intellisense
+- Open in Browser
+- Prettier
+- Path Intellisense
+- React Native Tools
+- Reactjs code snippets
+- Sass
+- stylelint
+- SQL Server (mssql)
+- vscode-stylelint
+- stylus
+- SVG Viewer
+- translate
+- TSLint
+- Vetur
+- vscode wxml
+- vscode-faker
+- vscode-icons
+- Vue 2 Snippets
+- webpack
+- 翻译

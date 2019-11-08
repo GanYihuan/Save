@@ -1,0 +1,770 @@
+﻿{
+  // "jshint.options": {
+  //   "esversion": 6,
+  //   "semi": 0
+  // },
+  "terminal.integrated.fontFamily": "Roboto Mono Medium for PowerLine",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "explorer.confirmDelete": false,
+  // 关闭代码提示
+  // "editor.quickSuggestions": false,
+  // "editor.wordBasedSuggestions": false,
+  // "editor.snippetSuggestions": "none",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  // the last line of your file will be at the bottom of the editor pane when you scroll down to the maximum.
+  "editor.scrollBeyondLastLine": false,
+  // 控制光标样式，接受的值为 "block"、"block-outline"、"line"、"line-thin" 、"underline" 和 "underline-thin"
+  "editor.cursorStyle": "line",
+  // 控制光标动画样式，可能的值为 "blink"、"smooth"、"phase"、"expand" 和 "solid"
+  "editor.cursorBlinking": "smooth",
+  // 控制换行方式。可以选择:
+  // - "off" (禁用换行)，
+  // - "on" (视区换行)，
+  // - "wordWrapColumn" (在 "editor.wordWrapColumn" 处换行)或
+  // - "bounded" (在最小视区和 "editor.wordWrapColumn" 处换行)。
+  "editor.wordWrap": "off",
+  // 在 "editor.wordWrap" 为 "wordWrapColumn" 或 "bounded" 时控制编辑器列的换行。
+  // "editor.wordWrapColumn": 120,
+  // 保存时取消自动格式化
+  "editor.formatOnSave": false,
+  "editor.autoSurround": "quotes",
+  "editor.cursorWidth": 2,
+  "window.zoomLevel": -2,
+  "window.titleBarStyle": "native",
+  // 控制是否应在新窗口中打开文件。
+  // - default: 文件将在该文件的文件夹打开的窗口中打开，或在上一个活动窗口中打开，除非该文件通过平台或从查找程序(仅限 macOS)打开
+  // - on: 文件将在新窗口中打开
+  // - off: 文件将在该文件的文件夹打开的窗口中打开，或在上一个活动窗口中打开
+  // 注意，可能仍会存在忽略此设置的情况(例如当使用 -new-window 或 -reuse-window 命令行选项时)。
+  "window.openFilesInNewWindow": "off",
+  // 控制边栏的位置。它可显示在工作台的左侧或右侧。
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true,
+  // 指定在工作台中使用的图标主题
+  "workbench.activityBar.visible": true,
+  // 默认行尾字符。
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#454545",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBarBadge.background": "#2979FF",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sideBar.background": "#1f1f1f",
+    "sideBar.foreground": "#8a898f",
+    "editorGutter.deletedBackground": "#e06859",
+    "editorGutter.modifiedBackground": "#f2995f",
+    "editorGutter.addedBackground": "#42b883",
+    "gitDecoration.addedResourceForeground": "#42b883",
+    "gitDecoration.modifiedResourceForeground": "#f2995f",
+    "gitDecoration.deletedResourceForeground": "#e06859",
+    "input.foreground": "#33e90a",
+    "list.hoverBackground": "#656b7b",
+    "list.focusBackground": "#f9e64f",
+    "list.activeSelectionBackground": "#000",
+    "list.inactiveSelectionBackground": "#000",
+    "list.warningForeground": "#656b7b",
+    "tab.activeBackground": "#666",
+    "tab.activeForeground": "#fff",
+    "tab.inactiveForeground": "#ccc",
+    "tab.hoverBackground": "#333",
+    "editor.selectionBackground": "#5d5d09",
+    "editor.selectionHighlightBorder": "#fff",
+    "editor.lineHighlightBackground": "#0f111c",
+    "editor.lineHighlightBorder": "#656b7b",
+    "editorCursor.background": "#00f",
+    "editorCursor.foreground": "#f9e64f",
+    "editor.background": "#0f111b",
+    "foreground": "#f1f0eb",
+    "focusBorder": "#a6ff00",
+    "titleBar.activeBackground": "#2c2c2c",
+    "titleBar.inactiveBackground": "#2c2c2c99",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#2c2c2c",
+    "statusBarItem.hoverBackground": "#454545",
+    "statusBar.foreground": "#e7e7e7",
+    "list.activeSelectionForeground": "#2979FF",
+    "list.inactiveSelectionForeground": "#2979FF",
+    "list.highlightForeground": "#2979FF",
+    "scrollbarSlider.activeBackground": "#2979FF50",
+    "editorSuggestWidget.highlightForeground": "#2979FF",
+    "textLink.foreground": "#2979FF",
+    "progressBar.background": "#2979FF",
+    "pickerGroup.foreground": "#2979FF",
+    "tab.activeBorder": "#2979FF",
+    "notificationLink.foreground": "#2979FF",
+    "editorWidget.resizeBorder": "#2979FF",
+    "editorWidget.border": "#2979FF",
+    "settings.modifiedItemIndicator": "#2979FF",
+    "settings.headerForeground": "#2979FF",
+    "panelTitle.activeBorder": "#2979FF",
+    "breadcrumb.activeSelectionForeground": "#2979FF",
+    "menu.selectionForeground": "#2979FF",
+    "menubar.selectionForeground": "#2979FF",
+    "editor.findMatchBorder": "#2979FF",
+    "selection.background": "#2979FF40"
+  },
+  // 这里主要是设置 emmet 对于 vue 的支持
+  "emmet.syntaxProfiles": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascriptreact",
+    "wxml": "html"
+  },
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  // "gitlens.historyExplorer.enabled": true,
+  // 窗口失去焦点自动保存
+  "files.autoSave": "afterDelay",
+  // 读取和编写文件时将使用的默认字符集编码。
+  "files.encoding": "utf8bom",
+  // 在这里主要做了对 vue 语言的支持
+  "files.associations": {
+    "*.vue": "vue",
+    "*.js": "javascript",
+    "*.md": "markdown",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  // 将一些不必要的搜索范围去掉
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/.git": true
+  },
+  // 解决卡顿
+  "search.followSymlinks": false,
+  "minapp-vscode.disableAutoConfig": true,
+  // "html.format.extraLiners": "",
+  // Error warning message: "Experimental support for decorators is a feature that is subject to change in a future release"
+  // "javascript.implicitProjectConfig.experimentalDecorators": true,
+  // "javascript.updateImportsOnFileMove.enabled": "always",
+  // "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "extensions.autoUpdate": true,
+  "fileheader.customMade": {
+    "Description": "",
+    "version": "",
+    "Author": "GanEhank",
+    "Date": "Do not edit",
+    "LastEditors": "GanEhank",
+    "LastEditTime": "Do not edit"
+  },
+  "fileheader.cursorMode": {
+    "description": "",
+    "param": "",
+    "return": ""
+  },
+  // fileheader.customMade	头部注释,默认设置：{'Author':'your name','Date':'Do not edit','LastEditors':'your name','LastEditTime':'Do not edit','Description':'file content'}	[object Object]
+  // fileheader.cursorMode	在光标处插入函数注释,默认配置:{'description':'','param':'','return':''}
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  /* 根据 ESLint的配置 来格式代码 */
+  // "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
+  },
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html",
+    "vue",
+    "javascriptreact"
+  ],
+  "git.confirmSync": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.renderCharacters": false,
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "editor.codeLens": true,
+  "editor.snippetSuggestions": "top",
+  "breadcrumbs.enabled": true,
+  // 配置
+  "git.ignoreMissingGitWarning": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.validate.enable": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "workbench.colorTheme": "One Monokai",
+  // "materialTheme.accent": "Purple",
+  // 基于编辑器设置的颜色主题，自定义语法着色
+  "editor.tokenColorCustomizations": {
+    "[One Monokai]": {
+      "comments": "#7e838b",
+      "keywords": "#ee7dba",
+      "variables": "#e3dd8d",
+      "strings": "#42b883",
+      "functions": "#00b3e6",
+      "numbers": "#42b883",
+      "textMateRules": [
+        {
+          "scope": "support.constant.property-value.css",
+          "settings": {
+            "foreground": "#00b3e6"
+          }
+        },
+        {
+          "scope": "support.constant.property-value.css",
+          "settings": {
+            "foreground": "#00b3e6"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name.jsx",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "support.type.property-name.css",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name.class.css",
+          "settings": {
+            "foreground": "#42b883"
+          }
+        },
+        {
+          "scope": "keyword.control.at-rule.import.stylus",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name.pseudo-element.css",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "keyword.operator.new.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.module.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.other.readwrite.shorthandpropertyname.js",
+          "settings": {
+            "foreground": "#42b883"
+          }
+        },
+        {
+          "scope": "keyword.control.loop.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "storage.type.function.arrow.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "support.type.object.dom.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "string.unquoted.js",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "storage.type.class.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "storage.type.extends.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.other.property.static.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "variable.other.class.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.import.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "entity.name.tag.js.jsx",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "variable.language.super.js.jsx",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "storage.type.class.js.jsx",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "meta.class.js.jsx",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "storage.modifier.js.jsx",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.switch.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.as.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "text.html.vue-html",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "meta.jsx.children.js.jsx",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "entity.name.type.class.js.jsx",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "entity.other.inherited-class.js.jsx",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "punctuation.definition.tag.begin.html",
+          "settings": {
+            "foreground": "#66717f"
+          }
+        },
+        {
+          "scope": "punctuation.definition.tag.end.html",
+          "settings": {
+            "foreground": "#66717f"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name.html",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "entity.name.tag.style.html",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "entity.name.tag.css",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "variable.other.readwrite.js",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "variable.other.dollar.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.other.constant.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.parameter.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.language.this.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "storage.type.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.other.object.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "keyword.operator.assignment.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "keyword.operator.arithmetic.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "storage.modifier.async.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "keyword.operator.accessor.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "keyword.control.conditional.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.default.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.trycatch.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.export.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.from.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "storage.type.function.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.control.flow.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.operator.typeof.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "keyword.operator.comparison.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "constant.language.boolean.true.js",
+          "settings": {
+            "foreground": "#42b883"
+          }
+        },
+        {
+          "scope": "constant.language.boolean.false.js",
+          "settings": {
+            "foreground": "#42b883"
+          }
+        },
+        {
+          "scope": "constant.other.character-class.range.regexp",
+          "settings": {
+            "foreground": "#42b883"
+          }
+        },
+        {
+          "scope": "string.template.js",
+          "settings": {
+            "foreground": "#42b883"
+          }
+        },
+        {
+          "scope": "support.constant.json.js",
+          "settings": {
+            "foreground": "#d65dd3"
+          }
+        },
+        {
+          "scope": "variable.other.property.js",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "support.type.object.console.js",
+          "settings": {
+            "foreground": "#4eace8"
+          },
+        },
+        {
+          "scope": "entity.name.function.js",
+          "settings": {
+            "foreground": "#4eace8"
+          },
+        },
+        {
+          "scope": "meta.object-literal.key.js",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "entity.name.label.js",
+          "settings": {
+            "foreground": "#f1f0eb"
+          }
+        },
+        {
+          "scope": "support.type.object.module.js",
+          "settings": {
+            "foreground": "#4eace8"
+          }
+        },
+        {
+          "scope": "support.variable.object.node.js",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "punctuation.separator.comma.js",
+          "settings": {
+            "foreground": "#7e838b"
+          }
+        },
+        {
+          "scope": "punctuation.separator.key-value.js",
+          "settings": {
+            "foreground": "#7e838b"
+          }
+        },
+        {
+          "scope": "punctuation.definition.string.end.js",
+          "settings": {
+            "foreground": "#7e838b"
+          }
+        },
+        {
+          "scope": "punctuation.definition.string.begin.js",
+          "settings": {
+            "foreground": "#7e838b"
+          }
+        },
+        {
+          "scope": "support.type.object.module.js",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name.js",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "entity.other.inherited-class.js",
+          "settings": {
+            "foreground": "#4eace8"
+          }
+        },
+        {
+          "scope": "variable.other.object.property.js",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "constant.language.null.js",
+          "settings": {
+            "foreground": "#AE81FF"
+          }
+        },
+        {
+          "scope": "support.class.component.js",
+          "settings": {
+            "foreground": "#e06859"
+          }
+        },
+        {
+          "scope": "support.class.console.js",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        },
+        {
+          "scope": "support.class.builtin.js",
+          "settings": {
+            "foreground": "#e3dd8d"
+          }
+        }
+      ]
+    }
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "[stylus]": {
+    "editor.defaultFormatter": "thisismanta.stylus-supremacy"
+  },
+  "terminal.integrated.rendererType": "dom",
+  "editor.renderIndentGuides": false,
+  "gitlens.mode.active": "zen",
+  // "peacock.favoriteColors": [
+  //   {
+  //     "name": "Angular Red",
+  //     "value": "#b52e31"
+  //   },
+  //   {
+  //     "name": "Auth0 Orange",
+  //     "value": "#eb5424"
+  //   },
+  //   {
+  //     "name": "Azure Blue",
+  //     "value": "#007fff"
+  //   },
+  //   {
+  //     "name": "C# Purple",
+  //     "value": "#68217A"
+  //   },
+  //   {
+  //     "name": "Gatsby Purple",
+  //     "value": "#639"
+  //   },
+  //   {
+  //     "name": "Go Cyan",
+  //     "value": "#5dc9e2"
+  //   },
+  //   {
+  //     "name": "Java Blue-Gray",
+  //     "value": "#557c9b"
+  //   },
+  //   {
+  //     "name": "JavaScript Yellow",
+  //     "value": "#f9e64f"
+  //   },
+  //   {
+  //     "name": "Mandalorian Blue",
+  //     "value": "#1857a4"
+  //   },
+  //   {
+  //     "name": "Node Green",
+  //     "value": "#215732"
+  //   },
+  //   {
+  //     "name": "React Blue",
+  //     "value": "#00b3e6"
+  //   },
+  //   {
+  //     "name": "Something Different",
+  //     "value": "#832561"
+  //   },
+  //   {
+  //     "name": "Vue Green",
+  //     "value": "#42b883"
+  //   },
+  //   {
+  //     "name": "VSCode origin",
+  //     "value": "#2b2b2b"
+  //   }
+  // ],
+  // "materialTheme.accent": "Blue"
+}
